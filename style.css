@@ -1,0 +1,74 @@
+.container-1,
+.container-2,
+.container-4,
+.footer {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-pick-color,
+.footer {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  margin: 10px;
+  border: 1px solid;
+  align-items: center;
+}
+
+.flex-box-container-2 img {
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+  margin: 10px;
+}
+.flex-box-rps img:hover {
+  box-shadow: 0px 10px 50px rgb(37, 50, 233, 1);
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url(https://images.unsplash.com/photo-1629197520635-16570fbd0bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+    center;
+  color: #ffff;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1.5px solid black;
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 button {
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+}
+
+.flex-blackjack-row-2 div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table,
+td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
